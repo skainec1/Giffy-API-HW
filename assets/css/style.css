@@ -1,0 +1,23 @@
+#body {
+    background-image: url(../images/startrekBG.jpg);
+    /* color: white; */
+
+}
+
+#instructions {
+    color: white;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    margin-left: 200px;
+}
+.rating {
+    color: white;
+    margin-left: 230px;
+}
+
+#gifArea {
+    align-content: center;
+}

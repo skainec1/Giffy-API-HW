@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <!-- TITLE -->
+   <title>Star Trek Gifs</title>
+   <!--STYLE-->
+   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   <!--BOOTSTRAP-->
+   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <!--JQUERY-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <!--JAVASCRIPT-->
+   <script type-="text/javascript" src="assets/javascript/app.js"></script>
+</head>
+<body id="body">
+   <div class="jumbotron jumbotron-fluid">
+       <div class="container">
+           <h1 class="display-4">Star Trek Gifs!</h1>
+           <p class="lead">Check out these cosmic Gifs!</p>
+       </div>
+   </div>
+   <div class="container">
+       <div class="row" id="buttonsHere"></div>
+     <div class="row">
+       <div class="col-sm">
+         <form>
+               <!--ZIP INPUT-->
+               <div class="form-group">
+                 <label id="instructions" for="trekButton">Create your own GIF button!</label>
+                 <input type="text" class="form-control" id="newTopic" placeholder="Live Long and Prosper"></input>
+               </div>
+               
+         </form>
+         <button id="submitBtn" type="button" class="btn btn-secondary btn-lg buttons btn-dark"">Add Button</button>
+       </div>
+      
+     </div>
+   </div>
+   <br>
+   <div id="gifArea"></div>
+</body>
+</html>
